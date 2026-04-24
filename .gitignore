@@ -1,0 +1,12 @@
+﻿# Sync helpers
+_sync_create_repo.ps1
+_sync_batch.ps1
+sync-workspace.ps1
+*.tmp
+*.log
+*.bak
+*.apk
+*.zip
+*.exe
+.DS_Store
+Thumbs.db

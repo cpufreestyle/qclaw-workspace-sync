@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-24T01:40:09.613Z",
+  "entries": {
+    "memory:memory/2026-04-17.md:1:18": {
+      "key": "memory:memory/2026-04-17.md:1:18",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "# 2026-04-17 记忆 ## 完成的任务 ### 1. 去除\"内部\"工具 v3.0 图形界面版 - 为\"全盘文档批量去除首行'内部'工具\"添加了tkinter图形界面 - 功能：选择目录扫描、全盘扫描、停止、导出报告、实时统计 - 打包EXE：RemoveInternalGUI.exe (35.87 MB) - Gitee：https://gitee.com/cpufreestyle/remove-internal-tool/releases/tag/v3.0 ### 2. 之前完成的任务（本轮会话前） - 贪吃蚯蚓APK：https://gitee.com/cpufreestyle/snake-game/releases/tag/v1.0.0 - 三国杀助手APK：https://gitee.com/cpufreestyle/sanguosha-assistant ## 用户信息 - Gitee账号：cpufreestyle - 主要需求：Android APK开发、Python工具开发、图形界面",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.3693404815482677,
+      "maxScore": 0.7395688128133385,
+      "firstRecalledAt": "2026-04-23T05:37:26.788Z",
+      "lastRecalledAt": "2026-04-23T08:49:33.132Z",
+      "queryHashes": [
+        "f0f5f00b0ef9",
+        "5d539e6b1118"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "v3.0",
+        "removeinternalgui.exe",
+        "35.87",
+        "记忆",
+        "完成",
+        "任务",
+        "去除",
+        "内部"
+      ]
+    },
+    "memory:memory/2026-04-01.md:1:38": {
+      "key": "memory:memory/2026-04-01.md:1:38",
+      "path": "memory/2026-04-01.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# 2026-04-01 Memory Log ## GitHub → Gitee 同步任务（进行中） 用户请求将 GitHub 仓库同步到 Gitee: https://gitee.com/cpufreestyle/ ### GitHub 仓库列表（cpufreestyle） | 仓库名 | 描述 | 语言 | |--------|------|------| | lottery-app | 抽奖程序 | Python | | marble-3d-service | Marble 3D 世界生成服务 | HTML | | network-reset-tool | Windows 网络重置批处理脚本，自动保留静态IP配置 | Batchfile | | sanguosha-assistant | 三国杀助手 | Python | | Tool-for-Removing-Internal-Words-from-Entire-Documents | 全盘文档批量去除首行'内部'工具 | Python | | Virtual-Display-Driver | 虚拟显示器驱动（fork） | - | ### 待确认事项 1. Gitee 用户名是否为 cpufreestyle？ 2. 需要同步哪些仓库（全部/指定）？ 3. Gitee 上是否已创建对应仓库？ ### 技术问题 - 尝试安装 gh CLI 失败：磁盘空间不足（exit code 112） - 通过 GitHub API 成功获取仓库列表 - 后续可通过 git 命令直接推送同步 --- ## 系统环境",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.3438384428802022,
+      "maxScore": 0.717717226583056,
+      "firstRecalledAt": "2026-04-23T05:37:26.788Z",
+      "lastRecalledAt": "2026-04-23T08:49:33.132Z",
+      "queryHashes": [
+        "f0f5f00b0ef9",
+        "5d539e6b1118"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "network",
+        "网络",
+        "gitee.com/cpufreestyle",
+        "lottery-app",
+        "marble-3d-service",
+        "network-reset-tool",
+        "sanguosha-assistant",
+        "virtual-display-driver"
+      ]
+    },
+    "memory:memory/2026-04-20.md:1:24": {
+      "key": "memory:memory/2026-04-20.md:1:24",
+      "path": "memory/2026-04-20.md",
+      "startLine": 1,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "# 2026-04-20 工作日志 ### 13:09 - LM Studio本地模型接入 - 用户计划将 OpenClaw 和 Hermes Agent 都接入 LM Studio 本地大模型 - LM Studio 默认服务器地址为 http://localhost:1234/v1 - Hermes Agent 在 WSL2 中访问 Windows 的 LM Studio 需使用 http://host.docker.internal:1234/v1 或 Docker 网关 IP - 配置完成后需分别测试 OpenClaw 和 Hermes 的连接 ### 16:07 - tkinter打包修复 - 排查PyInstaller打包network_reset_gui.py时tkinter模块未正确打包的问题 - 已修复spec文件配置以正确包含tkinter依赖 - 重新打包并验证exe运行正常 ### 18:28 - 项目开发与仓库管理 - 修复螃蟹助手项目中的错误并重新上传 - 为多个项目创建macOS版本（网络重置工具、磁盘清理、剪贴板修复、去除内部工具） - 保留Windows版本，新增macOS版本 - 上传所有安装文件到Gitee仓库 - 基于腾讯混元HY-World 2.0开源模型创建项目并分享 - 检查并修复Gitee仓库中拒绝访问的页面和缺失的可执行文件发布页面",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "totalScore": 1.9748292516210353,
+      "maxScore": 0.7161990823982177,
+      "firstRecalledAt": "2026-04-23T05:37:26.788Z",
+      "lastRecalledAt": "2026-04-24T01:40:09.613Z",
+      "queryHashes": [
+        "f0f5f00b0ef9",
+        "db5d2cdb3263",
+        "d96a78a3e4fd"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "network",
+        "网络",
+        "网关",
+        "1234/v1",
+        "host.docker.internal",
+        "基于腾讯混元hy-world",
+        "2.0开源模型创建项目并分享",
+        "工作"
+      ]
+    },
+    "memory:memory/2026-04-18.md:50:82": {
+      "key": "memory:memory/2026-04-18.md:50:82",
+      "path": "memory/2026-04-18.md",
+      "startLine": 50,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "- ⚠️ 目前封闭开发，未开源（Star 5k开源SDK，10k开源记忆模块，10w开源驱动层） ### 🤖 5. Cloud Code = Claude Code - GitHub: `anthropics/claude-code` - Anthropic 官方 Agentic Coding CLI - 优化版: `affaan-m/everything-claude-code` ## 螃蟹助手可融合的核心能力 1. **多渠道接入** ← OpenClaw + Hermes 2. **Skills/插件系统** ← OpenClaw + Hermes 3. **自学习闭环** ← Hermes（技能自动创建+改进） 4. **持久记忆** ← Memory Palace（混合检索+写入守卫+回滚） 5. **全息记忆+情感** ← AILinkX（RAG+语义检索+情感雷达） 6. **数字分身** ← AILinkX（风格克隆+自动托管） 7. **智能事务执行** ← AILinkX（归档/预约/财务） 8. **多模型切换** ← Hermes（200+模型，零代码切换） 9. **MCP统一协议** ← OpenClaw + Memory Palace 10. **Agentic编程** ← Claude Code ## 下一步 - 确定螃蟹助手的具体功能优先级 - 选择技术栈 - 开始架构设计 ### 20:45 - 螃蟹助手原型开发 - 明确去除AILinkX，不作为参考项目 - 选定方向为出原型（选项3），开始开发前端界面 - 正在编写skil",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.156182062415838,
+      "maxScore": 0.7001112025466008,
+      "firstRecalledAt": "2026-04-23T07:46:30.463Z",
+      "lastRecalledAt": "2026-04-24T01:40:09.613Z",
+      "queryHashes": [
+        "db5d2cdb3263",
+        "d96a78a3e4fd"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "anthropics/claude-code",
+        "affaan-m/everything-claude-code",
+        "skills/插件系统",
+        "归档/预约/财务",
+        "目前",
+        "封闭",
+        "开发",
+        "star"
+      ]
+    },
+    "memory:memory/2026-04-19.md:1:16": {
+      "key": "memory:memory/2026-04-19.md:1:16",
+      "path": "memory/2026-04-19.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "# 2026-04-19 工作日志 ### 10:27 - Hermes部署与项目区分 - 排查 ML Studio 显示未运行问题，确认为 CORS 策略导致 fetch localhost 失败，提出 localStorage 方案但问题仍未解决 - 在 WSL2 上部署了 Hermes Agent（NousResearch/hermes-agent） - 将最新可执行文件发布到各自 Gitee 的 Release 页面 - HybridClaw 和 Hermes Agent 是两个不同项目，用户多次纠正：Hermes 指的是 NousResearch/hermes-agent，不是 HybridClaw - ML Studio 仍显示未运行，问题未彻底解决 - HybridClaw 项目需要从底层全部修改，纠正之前错误关联为 Hermes 的问题 ### 20:38 - 项目跨平台适配 - 用户提出将多个项目新增 macOS 版本，Windows 版本保留不动 - 需将生成的所有 macOS 安装文件上传到用户的 Gitee 仓库",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "totalScore": 1.9153378096173432,
+      "maxScore": 0.6956588673398544,
+      "firstRecalledAt": "2026-04-23T07:46:30.463Z",
+      "lastRecalledAt": "2026-04-24T01:40:09.613Z",
+      "queryHashes": [
+        "db5d2cdb3263",
+        "5d539e6b1118",
+        "d96a78a3e4fd"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "nousresearch/hermes-agent",
+        "工作",
+        "日志",
+        "hermes",
+        "部署",
+        "项目",
+        "区分",
+        "studio"
+      ]
+    },
+    "memory:memory/2026-04-18.md:1:35": {
+      "key": "memory:memory/2026-04-18.md:1:35",
+      "path": "memory/2026-04-18.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# 螃蟹助手项目 - 任务记录 ## 时间 2026-04-18 16:18 GMT+8 ## 状态：需求收集中 ## 🦀 螃蟹助手定位 **全能助手**（不是三国杀游戏助手），融合以下五个参考项目的精华 ## 参考项目（全部确认） ### 🦞 1. 龙虾 = OpenClaw - GitHub: `openclaw/openclaw` - \"Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞\" - TypeScript/Node.js, Skills 系统, MCP, 多渠道Gateway ### ☤ 2. 爱马仕 = Hermes Agent - GitHub: `NousResearch/hermes-agent` - \"The self-improving AI agent built by Nous Research\" - 核心：自学习闭环（从经验创建技能→使用中改进→持久化知识→搜索历史） - 多模型：OpenRouter(200+)、NVIDIA NIM、小米MiMo、Kimi/Moonshot、MiniMax、OpenAI等 - 多平台：Telegram、Discord、Slack、WhatsApp、Signal、CLI - 子代理并行、内置cron、6种运行后端（本地/Docker/SSH/Daytona/Singularity/Modal） - 支持OpenClaw迁移：`hermes claw migrate` - Web UI: `pyrate",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.26915668445585,
+      "maxScore": 0.6701888627286772,
+      "firstRecalledAt": "2026-04-23T07:46:30.463Z",
+      "lastRecalledAt": "2026-04-24T01:40:09.613Z",
+      "queryHashes": [
+        "db5d2cdb3263",
+        "d96a78a3e4fd"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openai",
+        "router",
+        "openclaw/openclaw",
+        "typescript/node.js",
+        "nousresearch/hermes-agent",
+        "self-improving",
+        "kimi/moonshot"
+      ]
+    },
+    "memory:memory/2026-03-31.md:1:29": {
+      "key": "memory:memory/2026-03-31.md:1:29",
+      "path": "memory/2026-03-31.md",
+      "startLine": 1,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "# Memory — 2026-03-31 ## GitHub 账号信息 - 旧账号: `cpufreestyle` (https://github.com/cpufreestyle) - 新账号: `MichaelQiu` / `michaelqiu` (https://github.com/MichaelQiu) - SSH Key: 已生成 ed25519，公钥已添加到 GitHub - Personal Access Token (ghp): `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`（有 repo 权限） - 旧 PAT: `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`（权限不足，无法创建仓库） ## GitHub 仓库（cpufreestyle 账号下） - `MichaelQiu` → 改名为 `remove-neibu-docs`（全盘文档去除内部工具） - `sanguosha-assistant` → 三国杀语音助手 + skills - `lottery-app` → 抽奖软件（36人名单） - `marble-3d-service` → Marble 3D 世界生成服务 ## 技能创建 - `sanguosha-hero` skill 已创建并安装到 `~/.qclaw/skills/` - 技能功能：三国杀标准版武将技能查询（实时搜索） - 已通过 skill-v",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.6685560802997225,
+      "maxScore": 0.6685560802997225,
+      "firstRecalledAt": "2026-04-23T08:49:33.132Z",
+      "lastRecalledAt": "2026-04-23T08:49:33.132Z",
+      "queryHashes": [
+        "5d539e6b1118"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "github.com/cpufreestyle",
+        "github.com/michaelqiu",
+        "remove-neibu-docs",
+        "sanguosha-assistant",
+        "lottery-app",
+        "marble-3d-service",
+        "sanguosha-hero",
+        "qclaw/skills"
+      ]
+    },
+    "memory:memory/2026-04-15.md:25:46": {
+      "key": "memory:memory/2026-04-15.md:25:46",
+      "path": "memory/2026-04-15.md",
+      "startLine": 25,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "- Browser Relay扩展连接失败 (cdpReady始终false) - OpenClaw内置浏览器被SSRF策略拦截 - Playwright安装超时 **最终解决方案**: 通过 Gitee API 直接更新 Release 描述，添加 APK Raw 下载链接（因为开源版不支持附件上传 API） **最终完成状态**: - Release 已更新描述，添加下载链接 - Release URL: https://gitee.com/cpufreestyle/sanguosha-assistant/releases/tag/v1.0.0 - APK 下载链接: https://gitee.com/cpufreestyle/sanguosha-assistant/raw/master/dist/三国杀助手.apk - 脚本文件: `gitee_release_update.py`（更新 Release 描述） **辅助文件** (workspace根目录): - `gitee_release_create.py` - 创建Release成功 - `gitee_release_upload.py` - 上传附件失败(404) - `gitee_api_test.py` - API诊断工具 ### 16:10 - OpenClaw CLI更新 - 执行 `npx openclaw@latest` 安装了 openclaw@2026.4.14 - Node版本警告: 当前v22.16.0，undici@8.0.2需要>=22.19.0 (不影响运行)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.6427675708595396,
+      "maxScore": 0.6427675708595396,
+      "firstRecalledAt": "2026-04-23T08:49:33.132Z",
+      "lastRecalledAt": "2026-04-23T08:49:33.132Z",
+      "queryHashes": [
+        "5d539e6b1118"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "gitee-release-update.py",
+        "gitee-release-create.py",
+        "gitee-release-upload.py",
+        "gitee-api-test.py",
+        "2026.4.14",
+        "当前v22.16.0",
+        "8.0.2需要",
+        "22.19.0"
+      ]
+    },
+    "memory:memory/2026-04-15.md:1:31": {
+      "key": "memory:memory/2026-04-15.md:1:31",
+      "path": "memory/2026-04-15.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# 2026-04-15 工作日志 ### 09:08 - 每日科技新闻推送 - 执行每日科技新闻定时推送任务，从 HackerNews 获取并总结了 2026-04-15 的 10 条热门科技新闻 ### 09:13 - 国际政治新闻推送 - 执行每日政治新闻定时推送任务，搜索最近24小时国际政治要闻（排除中国大陆政治新闻），筛选10条重要新闻格式化推送 ### 16:10 - APK上传Gitee Release任务（继续） **状态**: Release创建成功，但附件上传失败 **完成**: - 使用Python requests绕过代理，成功创建Gitee Release v1.0.0 - Release ID: 605155 - URL: https://gitee.com/cpufreestyle/sanguosha-assistant/releases/tag/v1.0.0 - APK已在Git仓库: `origin/master:dist/三国杀助手.apk` (commit f02641f, 83KB) - raw下载链接可用: https://gitee.com/cpufreestyle/sanguosha-assistant/raw/master/dist/三国杀助手.apk **失败原因**: - Gitee开源版API不支持 `releases/attachments` 端点 (返回404) - PowerShell curl/Invoke-WebRequest被代理干扰返回HTML 400页面 - Browser R",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.5943080181745974,
+      "maxScore": 0.5943080181745974,
+      "firstRecalledAt": "2026-04-23T08:49:33.132Z",
+      "lastRecalledAt": "2026-04-23T08:49:33.132Z",
+      "queryHashes": [
+        "5d539e6b1118"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "v1.0.0",
+        "origin/master",
+        "dist/三国杀助手.apk",
+        "releases/attachments",
+        "工作",
+        "日志",
+        "每日",
+        "科技"
+      ]
+    },
+    "memory:memory/2026-04-18.md:29:59": {
+      "key": "memory:memory/2026-04-18.md:29:59",
+      "path": "memory/2026-04-18.md",
+      "startLine": 29,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "- GitHub: `AGI-is-going-to-arrive/Memory-Palace` - \"AI Agent 的长期记忆操作系统\" - Python + FastAPI + React + SQLite + MCP协议 - 核心功能： - 持久记忆存储（跨会话不丢失） - 混合检索（关键词+语义+reranker），意图感知搜索 - 写入守卫（Write Guard预检查），快照回滚 - 统一MCP协议集成 Codex/Claude Code/Gemini CLI/OpenCode - Dashboard：Memory、Review、Maintenance、Observability - v3.7.1，Docker支持 ### 🧠 4. AILinkX - GitHub: `iniwap/AILinkX` - \"全能数字生命操作系统\" - 核心爆点： - 🧠 全息记忆宫殿：本地RAG架构，语义检索，问答式查询 - 💓 情感雷达：潜台词解码，矛盾猎手（实时比对历史画像） - 🧬 数字分身养成：风格克隆LoRA，自动托管 - 🤖 智能事务官：自动归档、日程预约、财务助手 - 非侵入式架构：视觉感知UI，不注入DLL，拟人化引擎 - Local-First，所有数据本地存储 - ⚠️ 目前封闭开发，未开源（Star 5k开源SDK，10k开源记忆模块，10w开源驱动层） ### 🤖 5. Cloud Code = Claude Code - GitHub: `anthropics/claude-code` - Anthr",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.46626010264575607,
+      "maxScore": 0.46626010264575607,
+      "firstRecalledAt": "2026-04-24T01:40:09.613Z",
+      "lastRecalledAt": "2026-04-24T01:40:09.613Z",
+      "queryHashes": [
+        "d96a78a3e4fd"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "codex/claude",
+        "code/gemini",
+        "cli/opencode",
+        "v3.7.1",
+        "iniwap/ailinkx",
+        "local-first",
+        "anthropics/claude-code",
+        "github"
+      ]
+    }
+  }
+}
